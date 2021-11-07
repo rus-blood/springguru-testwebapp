@@ -15,7 +15,6 @@ public class Book {
     private String isbn;
 
     @ManyToOne
-    @JoinColumn(name = "publisher_id")
     private Publisher publisher;
 
     @ManyToMany
